@@ -88,12 +88,28 @@ h1{
     font-weight: bold;
     margin: 10px 0;
 }
+.badge-contenedor{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.badge{
+    margin: 5px;
+}
 .experiencia i {
     font-size: 2.5rem;
     color: beige;
     background-color: black;
     padding: 8px 19px;
     border-radius: 50%;
+    margin: 10px;
+}
+.columna{
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 
@@ -107,6 +123,15 @@ h1{
     }
     .seccion-texto{
         font-size: 1rem;
+    }
+    .badge-contenedor{
+        font-size: 25px;
+        font-weight: bold;
+        margin: 10px 0;
+    }
+    .badge{
+        font-size: .7rem;
+        margin: 3px 3px 20px 3px;
     }
 }
 @media screen and (min-width:700px) {
