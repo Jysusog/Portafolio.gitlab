@@ -1,0 +1,91 @@
+/*Estilos Generales*/
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 2.5rem;
+    font-family: 'Rubik Dirt', cursive;
+}
+.seccion-oscura{
+    background-color: #1b1b32;
+    color: white;
+}
+.seccion-titulo{
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Rubik Dirt', cursive;
+}
+.seccion-texto{
+    font-size: 1.2rem;
+}
+/*Barra de navegacion*/
+.navbar{
+    padding: 1rem;
+    background-color: darkgray;
+}
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+.hero{
+    background-color: white;
+    min-height: 450px;
+    text-align: center;
+}
+.hero-principal{
+    padding: 3rem;
+}
+.foto{
+    width: 200px;
+    height: 200px;
+    transition: 1s all;
+    margin: 20px;
+    cursor: pointer;
+}
+.foto:hover{
+    transform: scale(1.1);
+}
+.hero-principal h2{
+    font-size: 1.3rem;
+    color: #615151;
+}
+.hero-inferior{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sobre-mi{
+    height: 500px;
+    padding: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sobre-mi .contenedor{
+    max-width: 600px;
+    text-align: center;
+}
+
+
+
+/*Adaptable (Responsivo)*/
+@media screen and (max-width:767px) {
+    .navbar-brand{
+        display: none;
+    }
+    .imagen-monitor{
+        max-width: 100%;
+    }
+    .seccion-texto{
+        font-size: 1rem;
+    }
+}
+@media screen and (min-width:700px) {
+    .imagen-monitor{
+    max-width: 600px;
+    align-items: center;
+    }
+}
