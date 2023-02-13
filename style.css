@@ -29,6 +29,7 @@ h1{
 .navbar-collapse{
     align-items: center;
     justify-content: space-between;
+    text-align: center;
 }
 .hero{
     background-color: white;
