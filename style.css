@@ -147,6 +147,7 @@ h1{
     padding: 1rem;
     border-radius: 2rem;
     display: block;
+
     transition: all .3s ease;
 }
 .proyectos-contenedor{
@@ -168,6 +169,7 @@ h1{
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
+    
 }
 .overlay p{
     font-size: 25px;
@@ -178,10 +180,11 @@ h1{
     position: relative;
 }
 .proyecto:hover img{
-    opacity: .5;
+    
+    opacity: 0.1;
 }
 .proyecto:hover .overlay{
-    opacity: 1;
+    opacity: 2;
 }
 .overlay .iconos-contenedor{
     display: flex;
@@ -198,6 +201,16 @@ h1{
     }
     .overlay i{
         font-size: 40px;
+    }
+    
+}
+@media screen and (max-width:1250px){
+    .proyecto img{
+        opacity: .1;
+    }
+    .proyecto .overlay, .overlay i{
+        opacity: 3;
+        color: black;
     }
 }
 @media screen and (max-width:767px) {
@@ -222,6 +235,7 @@ h1{
     .columna{
         border:0;
     }
+    
 }
 @media screen and (min-width:700px) {
     .imagen-monitor{
