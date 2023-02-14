@@ -147,7 +147,13 @@ h1{
 .proyectos-contenedor{
     padding-top: 5rem;
     margin-bottom: 5rem;
+    
 
+}
+.proyectos-contenedor .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .overlay{
     transition: all .2s ease;
