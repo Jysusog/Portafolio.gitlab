@@ -35,6 +35,11 @@ h1{
 .texto-blanco{
     color: white;
 }
+.btn{
+    font-size: 1.1rem;
+    margin: 20px;
+    
+}
 /*Barra de navegacion*/
 .navbar{
     padding: 1rem;
@@ -187,6 +192,14 @@ h1{
     margin: 1rem;
 }
 /*Adaptable (Responsivo)*/
+@media screen and (max-width:400px){
+    .overlay p {
+        font-size: 18px;
+    }
+    .overlay i{
+        font-size: 40px;
+    }
+}
 @media screen and (max-width:767px) {
     .navbar-brand{
         display: none;
