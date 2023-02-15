@@ -118,7 +118,7 @@ h1{
     border-radius: 50%;
 }
 .experiencia .columna{
-    height: 26rem;
+    height: 30rem;
     border: 2px solid #615151;
     display: flex;
     flex-direction: column;
@@ -245,6 +245,7 @@ h1{
     color: #584e4e;
 }
 /*Adaptable (Responsivo)*/
+/*Seccion Testimonios*/
 @media screen and (max-width:800px){
     .seccion-titulo{
         font-size: 3rem;
@@ -266,6 +267,9 @@ h1{
     }
     .carousel-item{
         height: 400px;
+    }
+    .proyectos-recientes{
+        padding: 1.5rem;
     }
 }
 @media screen and (max-width:570px){
@@ -290,13 +294,19 @@ h1{
     .carousel-item{
         height: 390px;
     }
+    .proyectos-contenedor{
+        padding-top: 2rem;
+        margin-bottom: 2rem;
+        
+    
+    }
 }
 @media screen and (max-width:450px){
     .seccion-titulo{
         font-size: 1.6rem;
     }
     .seccion-descripcion{
-        font-size: .8rem;
+        font-size: .7rem;
     }
     .testimonio-imagen{
         width: 4rem;
@@ -321,7 +331,14 @@ h1{
     .carousel-item{
         height: 350px;
     }
+    .proyectos-contenedor{
+        padding-top: 1rem;
+        margin-bottom: 1rem;
+        
+    
+    }
 }
+/*Seccion Testimonios*/
 
 @media screen and (max-width:400px){
     .overlay p {
@@ -330,7 +347,13 @@ h1{
     .overlay i{
         font-size: 40px;
     }
-    
+    .proyectos-recientes{
+        padding: 1rem;
+    }
+    .experiencia{
+        padding: 1rem;
+        padding-bottom: 3rem;
+    }
 }
 @media screen and (max-width:1250px){
     .proyecto img{
