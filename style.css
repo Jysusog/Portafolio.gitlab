@@ -346,7 +346,7 @@ h1{
         color: #584e4e;
     }
     .carousel-item{
-        height: 400px;
+        height: 380px;
     }
     .proyectos-contenedor{
         padding-top: 1rem;
@@ -368,6 +368,79 @@ h1{
     }
     .hero-principal h2{
         font-size: 1.2rem;
+    }
+}
+@media screen and (max-width:350px){
+    .seccion-titulo{
+        font-size: 1.6rem;
+        text-align: center;
+    }
+    .seccion-descripcion{
+        font-size: .68rem;
+        text-align: center;
+    }
+    .testimonio-imagen{
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+    .testimonio-texto{
+        font-size: .65rem;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .testimonios{
+        padding: .1rem;
+        padding-bottom: 2rem;
+    }
+    .testimonio-info .cliente{
+        font-size: .8rem;
+    }
+    .testimonio-info .cargo{
+        font-size: .6rem;
+        color: #584e4e;
+    }
+    .carousel-item{
+        height: 380px;
+    }
+    .proyectos-contenedor{
+        padding-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .hero{
+        min-height: 350px;
+    }
+    .foto{
+        width: 8rem;
+        height: 8rem;
+    }
+    .hero-principal h1{
+        font-size: 1.8rem;
+    }
+    .hero-principal h1{
+        font-size: 1.6rem;
+        
+    }
+    .hero-principal h2{
+        font-size: 1.2rem;
+    }
+    .experiencia .columna{
+        height: 25rem;
+    }
+    .experiencia i {
+        font-size: 2rem;
+        color: beige;
+        background-color: black;
+        padding: 8px 19px;
+        border-radius: 50%;
+    }
+    .btn{
+        font-size: .8rem;
+    }
+    .experiencia-titulo{
+        font-size: 1.2rem;
+    }
+    .columna p{
+        font-size: .8rem;
     }
 }
 
