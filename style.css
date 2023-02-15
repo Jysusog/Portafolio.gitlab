@@ -317,20 +317,21 @@ h1{
     .sobre-mi{
         padding: 1.5rem;
     }
+
 }
 @media screen and (max-width:450px){
     .seccion-titulo{
         font-size: 1.6rem;
     }
     .seccion-descripcion{
-        font-size: .68rem;
+        font-size: .95rem;
     }
     .testimonio-imagen{
         width: 4rem;
         height: 4rem;
     }
     .testimonio-texto{
-        font-size: .65rem;
+        font-size: .75rem;
         text-align: center;
         margin-bottom: 1rem;
     }
@@ -339,10 +340,10 @@ h1{
         padding-bottom: 3rem;
     }
     .testimonio-info .cliente{
-        font-size: .8rem;
+        font-size: 1rem;
     }
     .testimonio-info .cargo{
-        font-size: .6rem;
+        font-size: .75rem;
         color: #584e4e;
     }
     .carousel-item{
@@ -368,6 +369,29 @@ h1{
     }
     .hero-principal h2{
         font-size: 1.2rem;
+    }
+    .experiencia {
+        padding: 1.8rem;
+    }
+    .experiencia .columna{
+        height: 25rem;
+
+    }
+    .experiencia i {
+        font-size: 2rem;
+        color: beige;
+        background-color: black;
+        padding: 8px 19px;
+        border-radius: 50%;
+    }
+    .btn{
+        font-size: 1rem;
+    }
+    .experiencia-titulo{
+        font-size: 1.8rem;
+    }
+    .columna p{
+        font-size: 1rem;
     }
 }
 @media screen and (max-width:350px){
@@ -468,7 +492,7 @@ h1{
     .proyecto .overlay, .overlay i{
         opacity: 3;
         color: black;
-    }
+    }    
 }
 @media screen and (max-width:767px) {
     .navbar-brand{
@@ -500,5 +524,10 @@ h1{
     align-items: center;
     }
     
+}
+@media screen and (min-width:1200px) {
+    .carousel-item{
+        height: 28rem;
+    }
 }
 
