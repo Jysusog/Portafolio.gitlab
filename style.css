@@ -244,6 +244,64 @@ h1{
     font-size: .9rem;
     color: #584e4e;
 }
+/*Seccion Contacto*/
+.contacto .container{
+    max-width: 1200px;
+    min-height: 200px;
+    padding: 2rem;
+}
+.contacto .rectangulo{
+    max-width: 100%;
+    margin-top:  -8rem;
+    background-color: rgb(13, 110, 256);
+    border-radius: 1rem;
+    box-shadow: 0px 1px 4px 1px white;
+}
+.contacto.row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.contacto .descripcion{
+    color: white;
+    font-size: 1rem;
+}
+.contacto button{
+    color: white;
+    width: 12rem;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10rem;
+    padding: 1.25rem 2rem;
+    margin: 10px;
+    transition: all .2s ease-in-out;
+    
+}
+.contacto button:hover{
+    background-color: white;
+    color: black;
+}
+.contacto button:hover i{
+    color: black;
+}
+.contacto .es{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contacto button i{
+    color: white;
+    font-size: 1.3rem;
+    transition: all .2s ease-in-out;
+}
+.contacto button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
 /*Adaptable (Responsivo)*/
 /*Seccion Testimonios*/
 @media screen and (max-width:800px){
@@ -263,13 +321,22 @@ h1{
     }
     .testimonios{
         padding: 1.5rem;
-        padding-bottom: 3rem;
+        padding-bottom: 7rem;
     }
     .carousel-item{
         height: 400px;
     }
     .proyectos-recientes{
         padding: 1.5rem;
+    }
+    .contacto .rectangulo{
+        max-width: 100%;
+        margin-top:  -8rem;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(13, 110, 256);
+        border-radius: 1rem;
+        box-shadow: 0px 1px 4px 1px white;
     }
 }
 @media screen and (max-width:570px){
@@ -289,7 +356,7 @@ h1{
     }
     .testimonios{
         padding: .5rem;
-        padding-bottom: 3rem;
+        padding-bottom: 7rem;
     }
     .carousel-item{
         height: 390px;
@@ -317,7 +384,15 @@ h1{
     .sobre-mi{
         padding: 1.5rem;
     }
-
+    .contacto .rectangulo{
+        max-width: 100%;
+        margin-top:  -8rem;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(13, 110, 256);
+        border-radius: 1rem;
+        box-shadow: 0px 1px 4px 1px white;
+    }
 }
 @media screen and (max-width:450px){
     .seccion-titulo{
@@ -337,7 +412,7 @@ h1{
     }
     .testimonios{
         padding: .3rem;
-        padding-bottom: 3rem;
+        padding-bottom: 7rem;
     }
     .testimonio-info .cliente{
         font-size: 1rem;
@@ -393,6 +468,15 @@ h1{
     .columna p{
         font-size: 1rem;
     }
+    .contacto .rectangulo{
+        max-width: 100%;
+        margin-top:  -8rem;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(13, 110, 256);
+        border-radius: 1rem;
+        box-shadow: 0px 1px 4px 1px white;
+    }
 }
 @media screen and (max-width:350px){
     .seccion-titulo{
@@ -414,7 +498,7 @@ h1{
     }
     .testimonios{
         padding: .1rem;
-        padding-bottom: 2rem;
+        padding-bottom: 7rem;
     }
     .testimonio-info .cliente{
         font-size: .8rem;
@@ -466,6 +550,11 @@ h1{
     .columna p{
         font-size: .8rem;
     }
+    .contacto .rectangulo{
+        display: flex;
+        flex-direction: column;
+    }
+
 }
 
 /*Seccion Testimonios*/
