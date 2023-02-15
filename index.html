@@ -11,6 +11,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+    <!--Fuentes Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
     <!--Metadatos-->
     <meta charset="UTF-8">
     <meta name="author" content="Jysus Martinez">
@@ -226,8 +230,59 @@
             </a>
         </div>
     </section>
-    <!---->
-    <section></section>
+    <!--Seccion Testimonios-->
+    <section class="testimonios seccion-clara">
+        <h2 class="seccion-titulo">Testimonios</h2>
+        <h3 class="seccion-descripcion">Estos son algunos testimonios de mis clientes</h3>
+        <!--Carrusel-->
+        <div id="testimonios-carrusel" class="carousel carousel-dark slide text-center">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container">
+                        <img src="img/cliente1.svg" class="testimonio-imagen rounded-circle" alt="Foto-cliente">
+                        <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores pariatur quidem aut aliquid maiores veritatis doloremque, consequatur distinctio eum fuga iste tempora, voluptas voluptatibus eos sed corporis, non qui laborum.</p>
+                        <div class="testimonio-info">
+                            <p class="cliente">Jim</p>
+                            <p class="cargo">Gerente De Proyectos En Desarrollo Web</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <img src="img/cliente2.svg" class="testimonio-imagen rounded-circle" alt="Foto-cliente">
+                        <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores pariatur quidem aut aliquid maiores veritatis doloremque, consequatur distinctio eum fuga iste tempora, voluptas voluptatibus eos sed corporis, non qui laborum.</p>
+                        <div class="testimonio-info">
+                            <p class="cliente">Laila</p>
+                            <p class="cargo">CEO De Visa</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <img src="img/cliente3.svg" class="testimonio-imagen rounded-circle" alt="Foto-cliente">
+                        <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores pariatur quidem aut aliquid maiores veritatis doloremque, consequatur distinctio eum fuga iste tempora, voluptas voluptatibus eos sed corporis, non qui laborum.</p>
+                        <div class="testimonio-info">
+                            <p class="cliente">Jymmy</p>
+                            <p class="cargo">Gestor General</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+            </div>
+    </section>
 </body>
 <!--Bootstrap-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
