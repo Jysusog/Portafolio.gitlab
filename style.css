@@ -264,8 +264,11 @@ h1{
         padding: 1.5rem;
         padding-bottom: 3rem;
     }
+    .carousel-item{
+        height: 400px;
+    }
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:570px){
     .seccion-titulo{
         font-size: 1.5rem;
     }
@@ -283,6 +286,40 @@ h1{
     .testimonios{
         padding: .5rem;
         padding-bottom: 3rem;
+    }
+    .carousel-item{
+        height: 390px;
+    }
+}
+@media screen and (max-width:450px){
+    .seccion-titulo{
+        font-size: 1.6rem;
+    }
+    .seccion-descripcion{
+        font-size: .8rem;
+    }
+    .testimonio-imagen{
+        width: 4rem;
+        height: 4rem;
+    }
+    .testimonio-texto{
+        font-size: .7rem;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .testimonios{
+        padding: .3rem;
+        padding-bottom: 3rem;
+    }
+    .testimonio-info .cliente{
+        font-size: .8rem;
+    }
+    .testimonio-info .cargo{
+        font-size: .6rem;
+        color: #584e4e;
+    }
+    .carousel-item{
+        height: 350px;
     }
 }
 
