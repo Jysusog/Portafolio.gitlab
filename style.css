@@ -261,6 +261,7 @@ h1{
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .contacto .descripcion{
     color: white;
@@ -289,6 +290,7 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 .contacto button i{
     color: white;
@@ -330,28 +332,30 @@ h1{
         padding: 1.5rem;
     }
     .contacto .rectangulo{
-        max-width: 100%;
-        margin-top:  -8rem;
         display: flex;
         flex-direction: column;
-        background-color: rgb(13, 110, 256);
-        border-radius: 1rem;
-        box-shadow: 0px 1px 4px 1px white;
+    }
+    .contacto .contactame{
+        font-size: 1.45rem;
+        padding: .1rem;
+    }
+    .contacto .boton{
+        font-size: 1rem;
     }
 }
 @media screen and (max-width:570px){
     .seccion-titulo{
-        font-size: 1.5rem;
+        font-size: 1.65rem;
     }
     .seccion-descripcion{
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     .testimonio-imagen{
         width: 5rem;
         height: 5rem;
     }
     .testimonio-texto{
-        font-size: .9rem;
+        font-size: 1rem;
         text-align: center;
     }
     .testimonios{
@@ -385,13 +389,12 @@ h1{
         padding: 1.5rem;
     }
     .contacto .rectangulo{
-        max-width: 100%;
-        margin-top:  -8rem;
         display: flex;
         flex-direction: column;
-        background-color: rgb(13, 110, 256);
-        border-radius: 1rem;
-        box-shadow: 0px 1px 4px 1px white;
+    }
+    .contacto .contactame{
+        font-size: 1.4rem;
+        padding: .1rem;
     }
 }
 @media screen and (max-width:450px){
@@ -469,13 +472,12 @@ h1{
         font-size: 1rem;
     }
     .contacto .rectangulo{
-        max-width: 100%;
-        margin-top:  -8rem;
         display: flex;
         flex-direction: column;
-        background-color: rgb(13, 110, 256);
-        border-radius: 1rem;
-        box-shadow: 0px 1px 4px 1px white;
+    }
+    .contacto .contactame{
+        font-size: 1rem;
+        padding: .1rem;
     }
 }
 @media screen and (max-width:350px){
@@ -553,6 +555,10 @@ h1{
     .contacto .rectangulo{
         display: flex;
         flex-direction: column;
+    }
+    .contacto .contactame{
+        font-size: .8rem;
+        padding: .1rem;
     }
 
 }
