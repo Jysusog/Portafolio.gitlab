@@ -60,8 +60,8 @@ h1{
     padding: 3rem;
 }
 .foto{
-    width: 200px;
-    height: 200px;
+    width: 15rem;
+    height: 15rem;
     transition: 1s all;
     margin: 20px;
     cursor: pointer;
@@ -200,7 +200,7 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 9rem 8rem 10rem 9rem;
+    padding: 2.5rem 2.5rem 10rem 2.5rem;
 }
 .testimonios .carousel{
     max-width: 50rem;
@@ -297,8 +297,25 @@ h1{
     .proyectos-contenedor{
         padding-top: 2rem;
         margin-bottom: 2rem;
-        
-    
+    }
+    .hero{
+        min-height: 300px;
+    }
+    .foto{
+        width: 10rem;
+        height: 10rem;
+    }
+    .hero-principal h1{
+        font-size: 1.8rem;
+    }
+    .hero-principal h2{
+        font-size: 1.3rem;
+    }
+    .hero-principal{
+        padding: 2rem;
+    }
+    .sobre-mi{
+        padding: 1.5rem;
     }
 }
 @media screen and (max-width:450px){
@@ -306,14 +323,14 @@ h1{
         font-size: 1.6rem;
     }
     .seccion-descripcion{
-        font-size: .7rem;
+        font-size: .68rem;
     }
     .testimonio-imagen{
         width: 4rem;
         height: 4rem;
     }
     .testimonio-texto{
-        font-size: .7rem;
+        font-size: .65rem;
         text-align: center;
         margin-bottom: 1rem;
     }
@@ -329,15 +346,31 @@ h1{
         color: #584e4e;
     }
     .carousel-item{
-        height: 350px;
+        height: 400px;
     }
     .proyectos-contenedor{
         padding-top: 1rem;
         margin-bottom: 1rem;
+    }
+    .hero{
+        min-height: 350px;
+    }
+    .foto{
+        width: 8rem;
+        height: 8rem;
+    }
+    .hero-principal h1{
+        font-size: 1.8rem;
+    }
+    .hero-principal h1{
+        font-size: 1.6rem;
         
-    
+    }
+    .hero-principal h2{
+        font-size: 1.2rem;
     }
 }
+
 /*Seccion Testimonios*/
 
 @media screen and (max-width:400px){
@@ -351,7 +384,7 @@ h1{
         padding: 1rem;
     }
     .experiencia{
-        padding: 1rem;
+        padding: 1.5rem;
         padding-bottom: 3rem;
     }
 }
@@ -395,3 +428,4 @@ h1{
     }
     
 }
+
