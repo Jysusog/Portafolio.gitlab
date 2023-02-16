@@ -44,7 +44,7 @@ h1{
 .navbar{
     padding: 1rem;
     background: transparent;
-    position: fixed;
+    position: relative;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -54,13 +54,17 @@ h1{
     color: white;
     z-index: 10;
     box-shadow: 2px 2px 12px 1px rgba(0,0,0,0.47);
+    transition: all 4s ease;
 }
 .navbar-nav .nav-link{
     font-size: 1.3rem;
 }
 .abajo{
-    background: linear-gradient(rgba(5,7,12,0.75),rgba(5,7,12,0.75));
+    background: linear-gradient(rgba(5,7,12,0.95),rgba(5,7,12,0.95));
     padding: 1rem;
+}
+.abajo {
+    position: fixed;
 }
 .abajo .navbar-nav .nav-link,.abajo .navbar-toggler {
     color: white;
@@ -70,12 +74,22 @@ h1{
     justify-content: space-between;
     text-align: center;
 }
+.navbar-toggler-icon{
+    color: white;
+    background-color: white;
+    border: 3px solid grey;
+}
+.abajo .navbar-toggler-icon{
+    color: white;
+    background-color: white;
+    border: 3px solid white;
+}
 /*Seccion Hero*/
 .hero{
     background-color: white;
     min-height: 450px;
     text-align: center;
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 .hero-principal{
     padding: 3rem;
@@ -328,7 +342,13 @@ h1{
 }
 /*Seccion Redes Sociales*/
 
-/*Adaptable (Responsivo)*/
+/*Adaptable (Responsivo)
+@media screen and (max-width:767px){
+    .hero{
+        margin-top: 13rem;
+    }
+}
+*/
 /*Seccion Testimonios*/
 @media screen and (max-width:800px){
     .seccion-titulo{
