@@ -89,7 +89,7 @@ h1{
     background-color: white;
     min-height: 450px;
     text-align: center;
-    margin-top: 2rem;
+    padding: 7rem;
 }
 .hero-principal{
     padding: 3rem;
@@ -115,7 +115,7 @@ h1{
 }
 /*Seccion Sobre Mi*/
 .sobre-mi{
-    padding-top: 3rem;
+    padding-top: 7rem;
     height: 500px;
     padding: 2.5rem;
     display: flex;
@@ -128,7 +128,7 @@ h1{
 }
 /*Seccion Experiencia*/
 .experiencia{
-    padding: 3rem 3rem 4rem 3rem;
+    padding: 7rem 3rem 4rem 3rem;
 }
 .experiencia .row div{
     
@@ -349,6 +349,68 @@ h1{
     }
 }
 */
+
+
+@media screen and (max-width:400px){
+    .overlay p {
+        font-size: 18px;
+    }
+    .overlay i{
+        font-size: 40px;
+    }
+    .proyectos-recientes{
+        padding: 1rem;
+    }
+    .experiencia{
+        padding: 1.5rem;
+        padding-bottom: 7rem;
+    }
+}
+@media screen and (max-width:1250px){
+    .proyecto img{
+        opacity: .1;
+    }
+    .proyecto .overlay, .overlay i{
+        opacity: 3;
+        color: black;
+    }    
+}
+@media screen and (max-width:767px) {
+    .navbar-brand{
+        display: none;
+    }
+    .imagen-monitor{
+        max-width: 100%;
+    }
+    .seccion-texto{
+        font-size: 1rem;
+    }
+    .badge-contenedor{
+        font-size: 25px;
+        font-weight: bold;
+        margin:  0;
+    }
+    .badge{
+        font-size: .7rem;
+        margin: 0;
+    }
+    .columna{
+        border:0;
+    }
+    
+}
+@media screen and (min-width:700px) {
+    .imagen-monitor{
+    max-width: 600px;
+    align-items: center;
+    }
+    
+}
+@media screen and (min-width:1200px) {
+    .carousel-item{
+        height: 28rem;
+    }
+}
 /*Seccion Testimonios*/
 @media screen and (max-width:800px){
     .seccion-titulo{
@@ -374,6 +436,7 @@ h1{
     }
     .proyectos-recientes{
         padding: 1.5rem;
+        padding-top: 7rem;
     }
     .contacto .rectangulo{
         display: flex;
@@ -385,6 +448,9 @@ h1{
     }
     .contacto .boton{
         font-size: 1rem;
+    }
+    .sobre-mi, .proyectos-recientes, .testimonios, .contacto{
+        padding-top: 7rem;
     }
 }
 @media screen and (max-width:570px){
@@ -439,6 +505,9 @@ h1{
     .contacto .contactame{
         font-size: 1.4rem;
         padding: .1rem;
+    }
+    .sobre-mi, .proyectos-recientes, .testimonios, .contacto{
+        padding-top: 5rem;
     }
 }
 @media screen and (max-width:450px){
@@ -523,6 +592,9 @@ h1{
         font-size: 1rem;
         padding: .1rem;
     }
+    .sobre-mi, .proyectos-recientes, .testimonios, .contacto{
+        padding-top: 7rem;
+    }
 }
 @media screen and (max-width:350px){
     .seccion-titulo{
@@ -604,69 +676,11 @@ h1{
         font-size: .8rem;
         padding: .1rem;
     }
+    .sobre-mi, .proyectos-recientes, .testimonios, .contacto{
+        padding-top: 4rem;
+    }
 
 }
 
 /*Seccion Testimonios*/
-
-@media screen and (max-width:400px){
-    .overlay p {
-        font-size: 18px;
-    }
-    .overlay i{
-        font-size: 40px;
-    }
-    .proyectos-recientes{
-        padding: 1rem;
-    }
-    .experiencia{
-        padding: 1.5rem;
-        padding-bottom: 3rem;
-    }
-}
-@media screen and (max-width:1250px){
-    .proyecto img{
-        opacity: .1;
-    }
-    .proyecto .overlay, .overlay i{
-        opacity: 3;
-        color: black;
-    }    
-}
-@media screen and (max-width:767px) {
-    .navbar-brand{
-        display: none;
-    }
-    .imagen-monitor{
-        max-width: 100%;
-    }
-    .seccion-texto{
-        font-size: 1rem;
-    }
-    .badge-contenedor{
-        font-size: 25px;
-        font-weight: bold;
-        margin:  0;
-    }
-    .badge{
-        font-size: .7rem;
-        margin: 0;
-    }
-    .columna{
-        border:0;
-    }
-    
-}
-@media screen and (min-width:700px) {
-    .imagen-monitor{
-    max-width: 600px;
-    align-items: center;
-    }
-    
-}
-@media screen and (min-width:1200px) {
-    .carousel-item{
-        height: 28rem;
-    }
-}
 
