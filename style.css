@@ -43,7 +43,27 @@ h1{
 /*Barra de navegacion*/
 .navbar{
     padding: 1rem;
-    background-color: darkgray;
+    background: transparent;
+    position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	transition: 0.7s;
+    color: white;
+    z-index: 10;
+    box-shadow: 2px 2px 12px 1px rgba(0,0,0,0.47);
+}
+.navbar-nav .nav-link{
+    font-size: 1.3rem;
+}
+.abajo{
+    background: linear-gradient(rgba(5,7,12,0.75),rgba(5,7,12,0.75));
+    padding: 1rem;
+}
+.abajo .navbar-nav .nav-link,.abajo .navbar-toggler {
+    color: white;
 }
 .navbar-collapse{
     align-items: center;
@@ -55,6 +75,7 @@ h1{
     background-color: white;
     min-height: 450px;
     text-align: center;
+    margin-top: 4rem;
 }
 .hero-principal{
     padding: 3rem;
@@ -80,6 +101,7 @@ h1{
 }
 /*Seccion Sobre Mi*/
 .sobre-mi{
+    padding-top: 3rem;
     height: 500px;
     padding: 2.5rem;
     display: flex;
@@ -140,6 +162,7 @@ h1{
 /*Proyectos*/
 .proyectos-recientes{
     padding: 2.5rem;
+    padding-top: 7rem;
 }
 .proyectos-recientes img{
     height: 100%;
@@ -180,7 +203,6 @@ h1{
     position: relative;
 }
 .proyecto:hover img{
-    
     opacity: 0.1;
 }
 .proyecto:hover .overlay{
@@ -200,7 +222,7 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2.5rem 2.5rem 10rem 2.5rem;
+    padding: 7rem 2.5rem 10rem 2.5rem;
 }
 .testimonios .carousel{
     max-width: 50rem;
