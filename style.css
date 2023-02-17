@@ -89,7 +89,7 @@ h1{
     background-color: white;
     min-height: 450px;
     text-align: center;
-    padding: 7rem;
+    padding: 3rem;
 }
 .hero-principal{
     padding: 3rem;
@@ -115,7 +115,6 @@ h1{
 }
 /*Seccion Sobre Mi*/
 .sobre-mi{
-    padding-top: 7rem;
     height: 500px;
     padding: 2.5rem;
     display: flex;
@@ -129,9 +128,6 @@ h1{
 /*Seccion Experiencia*/
 .experiencia{
     padding: 7rem 3rem 4rem 3rem;
-}
-.experiencia .row div{
-    
 }
 .experiencia-titulo{
     font-family: monospace;
@@ -340,8 +336,48 @@ h1{
     justify-content: space-around;
     
 }
-/*Seccion Redes Sociales*/
 
+/*Seccion Redes Sociales*/
+footer{
+    min-height: 30rem;
+}
+footer .footer-icono{
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    margin: 1rem;
+}
+footer .footer-texto{
+    font-size: 1.5rem;
+    font-family: 'Quicksand', sans-serif;
+}
+footer .iconos-redes-sociales a {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 10rem;
+    margin: 1rem;
+    transition: all .7s ease-in;
+}
+footer .iconos-redes-sociales a i{
+    font-size: 1.2rem;
+    color: white;
+    transition: all .7s ease-in;
+}
+footer .iconos-redes-sociales a:hover{
+    background-color: white;
+}
+footer .iconos-redes-sociales a:hover i{
+    color: black;
+}
+.derechos-de-autor{
+    font-size: 1rem;
+    color: white;
+    padding: 1.2rem;
+}
 /*Adaptable (Responsivo)
 @media screen and (max-width:767px){
     .hero{
@@ -429,7 +465,6 @@ h1{
     }
     .testimonios{
         padding: 1.5rem;
-        padding-bottom: 7rem;
     }
     .carousel-item{
         height: 400px;
@@ -449,9 +484,13 @@ h1{
     .contacto .boton{
         font-size: 1rem;
     }
-    .sobre-mi, .proyectos-recientes, .testimonios, .contacto{
+    .proyectos-recientes, .contacto{
+        margin-top: 7rem;
+    }
+    .testimonios{
         padding-top: 7rem;
     }
+    
 }
 @media screen and (max-width:570px){
     .seccion-titulo{
@@ -470,7 +509,7 @@ h1{
     }
     .testimonios{
         padding: .5rem;
-        padding-bottom: 7rem;
+    
     }
     .carousel-item{
         height: 390px;
@@ -506,8 +545,11 @@ h1{
         font-size: 1.4rem;
         padding: .1rem;
     }
-    .sobre-mi, .proyectos-recientes, .testimonios, .contacto{
-        padding-top: 5rem;
+    .proyectos-recientes, .contacto{
+        margin-top: 7rem;
+    }
+    .testimonios{
+        padding-top: 7rem;
     }
 }
 @media screen and (max-width:450px){
@@ -528,7 +570,6 @@ h1{
     }
     .testimonios{
         padding: .3rem;
-        padding-bottom: 7rem;
     }
     .testimonio-info .cliente{
         font-size: 1rem;
@@ -546,6 +587,7 @@ h1{
     }
     .hero{
         min-height: 350px;
+        padding: 1rem;
     }
     .foto{
         width: 8rem;
@@ -592,8 +634,29 @@ h1{
         font-size: 1rem;
         padding: .1rem;
     }
-    .sobre-mi, .proyectos-recientes, .testimonios, .contacto{
+    .proyectos-recientes, .contacto{
+        margin-top: 7rem;
+    }
+    .testimonios{
         padding-top: 7rem;
+    }
+    footer{
+        min-height: 20rem;
+    }
+    footer .footer-icono{
+        width: 50px;
+        height: 50px;
+    }
+    footer .footer-texto{
+        font-size: 1.2rem;
+    }
+    footer .iconos-redes-sociales a{
+        width: 2.5rem;
+        height: 2.5rem;
+        margin: .5rem;
+    }
+    footer .iconos-redes-sociales a i{
+        font-size: 1.3rem;
     }
 }
 @media screen and (max-width:350px){
@@ -616,7 +679,6 @@ h1{
     }
     .testimonios{
         padding: .1rem;
-        padding-bottom: 7rem;
     }
     .testimonio-info .cliente{
         font-size: .8rem;
@@ -676,8 +738,34 @@ h1{
         font-size: .8rem;
         padding: .1rem;
     }
-    .sobre-mi, .proyectos-recientes, .testimonios, .contacto{
-        padding-top: 4rem;
+    .proyectos-recientes, .contacto{
+        margin-top: 7rem;
+    }
+    .testimonios{
+        padding-top: 7rem;
+    }
+    footer{
+        min-height: 16rem;
+    }
+    footer .footer-icono{
+        width: 50px;
+        height: 50px;
+    }
+    footer .footer-texto{
+        font-size: 1rem;
+    }
+    footer .iconos-redes-sociales a{
+        width: 2rem;
+        height: 2rem;
+        margin: .5rem;
+    }
+    footer .iconos-redes-sociales a i{
+        font-size: .7rem;
+    }
+    .derechos-de-autor{
+        font-size: .8rem;
+        color: white;
+        padding: 1rem;
     }
 
 }
