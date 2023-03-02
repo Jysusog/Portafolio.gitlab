@@ -291,10 +291,17 @@ h1{
     color: #584e4e;
 }
 /*Seccion Contacto*/
+.seccion-titulo{
+    color: white;
+}
 .contacto .container{
-    max-width: 1200px;
+    max-width: 100%;
     min-height: 200px;
     padding: 2rem;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img/Fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 .contacto .rectangulo{
     max-width: 100%;
@@ -354,6 +361,10 @@ h1{
 /*Seccion Redes Sociales*/
 footer{
     min-height: 30rem;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img/Fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 footer .footer-icono{
     width: 70px;
