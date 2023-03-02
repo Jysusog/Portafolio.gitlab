@@ -84,6 +84,7 @@ h1{
     background-color: white;
     border: 3px solid white;
 }
+/*Info Sobre Sitios Web&body=Hola Buen Dia, Soy (Escribir Su Nombre) quiero recibir informacion para la creacion de mi sitio web. Mi Numero de Celular Es (Escribir Su Numero Celular)*/
 /*Seccion Hero*/
 .hero{
     background-color: white;
@@ -124,6 +125,13 @@ h1{
 .sobre-mi .contenedor{
     max-width: 600px;
     text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    
+}
+.seccion-texto{
+    font-size: .8rem;
+    line-break: loose;
 }
 /*Seccion Experiencia*/
 .experiencia{
@@ -134,6 +142,7 @@ h1{
     font-size: 25px;
     font-weight: bold;
     margin: 10px 0;
+    text-transform: uppercase;
 }
 .badges-contenedor{
     font-size: 20px;
@@ -157,6 +166,7 @@ h1{
     align-items: center;
     justify-content: center;
     transition: all .6s ease-out;
+    
 }
 .experiencia .columna:hover{
     color: white;
@@ -218,8 +228,12 @@ h1{
 .proyecto:hover .overlay{
     opacity: 2;
 }
+.proyecto:hover .overlay p{
+    font-size: 1.2rem;
+}
 .overlay .iconos-contenedor{
     display: flex;
+    justify-content: space-around;
 }
 .overlay i{
     color: black;
@@ -403,6 +417,9 @@ footer .iconos-redes-sociales a:hover i{
     }
 }
 @media screen and (max-width:1250px){
+    .seccion-texto{
+        font-size: 1rem;
+    }
     .proyecto img{
         opacity: .1;
     }
